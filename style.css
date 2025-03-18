@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    height: 100vh;            /* Full height of viewport */
+    margin: 0;
+    background-color: #f8f9fa; /* Optional: light background */
+}
+#myForm {
+    width: 150%; /* Adjust width as needed */
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+label {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    padding-top: 15px;
+}
+#myForm input,
+textarea {
+    width: 100%;
+    padding: 10px;
+
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
